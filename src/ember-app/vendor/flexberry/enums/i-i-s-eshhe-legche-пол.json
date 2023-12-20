@@ -2,7 +2,7 @@
   "nameSpace": "IIS.EshheLegche",
   "className": "Пол",
   "enumObjects": {
-    "Самец": "",
-    "Самка": ""
+    "Самец": "Самец",
+    "Самка": "Самка"
   }
 }

@@ -78,7 +78,7 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Вид",
               "hidden": true,
               "index": 4
             }
@@ -126,14 +126,14 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Вид",
               "hidden": false,
               "index": 3
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Наименование",
+          "caption": "Вид",
           "name": "виды",
           "relatedTo": "i-i-s-eshhe-legche-виды",
           "inverse": null

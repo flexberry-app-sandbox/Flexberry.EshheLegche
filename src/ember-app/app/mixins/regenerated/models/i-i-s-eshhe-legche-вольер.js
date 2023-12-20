@@ -54,12 +54,10 @@ export let defineProjections = function (modelClass) {
     типВольера: attr('Тип вольера', { index: 1 }),
     площадь: attr('Площадь', { index: 2 }),
     сотрудники: belongsTo('i-i-s-eshhe-legche-сотрудники', 'Сотрудники', {
-      фамилия: attr('Фамилия', { index: 4, hidden: true })
+      фамилия: attr('Ответственный', { index: 4, hidden: true })
     }, { index: 3, displayMemberPath: 'фамилия' }),
     составВольера: hasMany('i-i-s-eshhe-legche-состав-вольера', 'Состав вольера', {
-      животные: belongsTo('i-i-s-eshhe-legche-животные', 'Животные', {
-        кличка: attr('Кличка', { index: 1, hidden: true })
-      }, { index: 0, displayMemberPath: 'кличка' })
+      
     })
   });
 
@@ -67,8 +65,8 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     типВольера: attr('Тип вольера', { index: 1 }),
     площадь: attr('Площадь', { index: 2 }),
-    сотрудники: belongsTo('i-i-s-eshhe-legche-сотрудники', 'Фамилия', {
-      фамилия: attr('Фамилия', { index: 3 })
+    сотрудники: belongsTo('i-i-s-eshhe-legche-сотрудники', 'Ответственный', {
+      фамилия: attr('Ответственный', { index: 3 })
     }, { index: -1, hidden: true })
   });
 };

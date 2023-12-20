@@ -34,7 +34,7 @@ namespace IIS.EshheLegche
             "Имя as \'Имя\'",
             "Отчество as \'Отчество\'",
             "Должность as \'Должность\'",
-            "Должность.Наименование as \'Наименование\'"}, Hidden=new string[] {
+            "Должность.Наименование as \'Наименование должности\'"}, Hidden=new string[] {
             "Должность.Наименование"})]
     [MasterViewDefineAttribute("СотрудникиE", "Должность", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("СотрудникиL", new string[] {
@@ -42,7 +42,7 @@ namespace IIS.EshheLegche
             "Фамилия as \'Фамилия\'",
             "Имя as \'Имя\'",
             "Отчество as \'Отчество\'",
-            "Должность.Наименование as \'Наименование\'"})]
+            "Должность.Наименование as \'Наименование должности\'"})]
     public class Сотрудники : ICSSoft.STORMNET.DataObject
     {
         

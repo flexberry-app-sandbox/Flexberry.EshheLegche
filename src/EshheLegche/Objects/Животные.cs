@@ -33,14 +33,14 @@ namespace IIS.EshheLegche
             "Кличка as \'Кличка\'",
             "Пол as \'Пол\'",
             "Виды as \'Виды\'",
-            "Виды.Наименование as \'Наименование\'"}, Hidden=new string[] {
+            "Виды.Наименование as \'Вид\'"}, Hidden=new string[] {
             "Виды.Наименование"})]
     [MasterViewDefineAttribute("ЖивотныеE", "Виды", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("ЖивотныеL", new string[] {
             "КодЖивотного as \'Код животного\'",
             "Кличка as \'Кличка\'",
             "Пол as \'Пол\'",
-            "Виды.Наименование as \'Наименование\'"})]
+            "Виды.Наименование as \'Вид\'"})]
     public class Животные : ICSSoft.STORMNET.DataObject
     {
         

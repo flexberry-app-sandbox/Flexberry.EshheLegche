@@ -28,8 +28,6 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СоставВольераE', 'i-i-s-eshhe-legche-состав-вольера', {
-    животные: belongsTo('i-i-s-eshhe-legche-животные', 'Животные', {
-      кличка: attr('Кличка', { index: 1, hidden: true })
-    }, { index: 0, displayMemberPath: 'кличка' })
+    
   });
 };

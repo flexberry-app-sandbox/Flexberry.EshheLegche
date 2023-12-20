@@ -73,6 +73,16 @@
     {{flexberry-validationmessage error=(v-get validationModel "рацион" "message")}}
   </div>
   <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.рацион.номерРациона
+      class=(if (v-get validationModel.рацион "номерРациона" "isInvalid") "error")
+      label=(t "forms.i-i-s-eshhe-legche-расписание-e.рацион.номерРациона-caption")
+      data-test-i-i-s-eshhe-legche-расписание-e-рацион-номерРациона=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.рацион "номерРациона" "message")}}
+  </div>
+  <div class="field">
     <label>{{t "forms.i-i-s-eshhe-legche-расписание-e.должность-caption"}}</label>
     {{flexberry-lookup
       choose="showLookupDialog"

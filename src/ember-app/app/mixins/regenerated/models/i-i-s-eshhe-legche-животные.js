@@ -46,7 +46,7 @@ export let defineProjections = function (modelClass) {
     кличка: attr('Кличка', { index: 1 }),
     пол: attr('Пол', { index: 2 }),
     виды: belongsTo('i-i-s-eshhe-legche-виды', 'Виды', {
-      наименование: attr('Наименование', { index: 4, hidden: true })
+      наименование: attr('Вид', { index: 4, hidden: true })
     }, { index: 3, displayMemberPath: 'наименование' })
   });
 
@@ -54,8 +54,8 @@ export let defineProjections = function (modelClass) {
     кодЖивотного: attr('Код животного', { index: 0 }),
     кличка: attr('Кличка', { index: 1 }),
     пол: attr('Пол', { index: 2 }),
-    виды: belongsTo('i-i-s-eshhe-legche-виды', 'Наименование', {
-      наименование: attr('Наименование', { index: 3 })
+    виды: belongsTo('i-i-s-eshhe-legche-виды', 'Вид', {
+      наименование: attr('Вид', { index: 3 })
     }, { index: -1, hidden: true })
   });
 };

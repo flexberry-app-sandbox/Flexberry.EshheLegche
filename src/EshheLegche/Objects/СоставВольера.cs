@@ -31,7 +31,9 @@ namespace IIS.EshheLegche
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СоставВольераE", new string[] {
             "Животные as \'Животные\'",
-            "Животные.Кличка as \'Кличка\'"}, Hidden=new string[] {
+            "Животные.Кличка as \'Кличка\'",
+            "Животные.Виды as \'Виды\'",
+            "Животные.Виды.Наименование as \'Вид\'"}, Hidden=new string[] {
             "Животные.Кличка"})]
     [MasterViewDefineAttribute("СоставВольераE", "Животные", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Кличка")]
     public class СоставВольера : ICSSoft.STORMNET.DataObject

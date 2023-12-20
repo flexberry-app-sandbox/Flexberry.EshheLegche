@@ -12,6 +12,7 @@ namespace IIS.EshheLegche
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -28,25 +29,11 @@ namespace IIS.EshheLegche
     public enum ТипВольера
     {
         
-        // *** Start programmer edit section *** (ТипВольера.крупных CustomAttributes)
+        // *** Start programmer edit section *** (ТипВольера.ДляКрупныхЖивотных CustomAttributes)
 
-        // *** End programmer edit section *** (ТипВольера.крупных CustomAttributes)
-        крупных,
-        
-        // *** Start programmer edit section *** (ТипВольера.животных CustomAttributes)
-
-        // *** End programmer edit section *** (ТипВольера.животных CustomAttributes)
-        животных,
-        
-        // *** Start programmer edit section *** (ТипВольера.Для CustomAttributes)
-
-        // *** End programmer edit section *** (ТипВольера.Для CustomAttributes)
-        Для,
-        
-        // *** Start programmer edit section *** (ТипВольера.птиц CustomAttributes)
-
-        // *** End programmer edit section *** (ТипВольера.птиц CustomAttributes)
-        птиц,
+        // *** End programmer edit section *** (ТипВольера.ДляКрупныхЖивотных CustomAttributes)
+        [Caption("Для крупных животных")]
+        ДляКрупныхЖивотных,
         
         // *** Start programmer edit section *** (ТипВольера.Аквариум CustomAttributes)
 
@@ -62,5 +49,11 @@ namespace IIS.EshheLegche
 
         // *** End programmer edit section *** (ТипВольера.Экзотический CustomAttributes)
         Экзотический,
+        
+        // *** Start programmer edit section *** (ТипВольера.ДляПтиц CustomAttributes)
+
+        // *** End programmer edit section *** (ТипВольера.ДляПтиц CustomAttributes)
+        [Caption("Для птиц")]
+        ДляПтиц,
     }
 }

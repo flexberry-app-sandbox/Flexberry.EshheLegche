@@ -34,7 +34,7 @@ namespace IIS.EshheLegche
             "СоставКорма as \'Состав корма\'",
             "ВесКорма as \'Вес корма\'",
             "Сотрудники as \'Сотрудники\'",
-            "Сотрудники.Фамилия as \'Фамилия\'"}, Hidden=new string[] {
+            "Сотрудники.Фамилия as \'Ответственный\'"}, Hidden=new string[] {
             "Сотрудники.Фамилия"})]
     [MasterViewDefineAttribute("РационE", "Сотрудники", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
     [View("РационL", new string[] {
@@ -42,7 +42,7 @@ namespace IIS.EshheLegche
             "ТипКорма as \'Тип корма\'",
             "СоставКорма as \'Состав корма\'",
             "ВесКорма as \'Вес корма\'",
-            "Сотрудники.Фамилия as \'Фамилия\'"})]
+            "Сотрудники.Фамилия as \'Ответственный\'"})]
     public class Рацион : ICSSoft.STORMNET.DataObject
     {
         

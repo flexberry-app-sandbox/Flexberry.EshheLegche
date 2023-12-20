@@ -37,15 +37,15 @@ export let defineProjections = function (modelClass) {
     времяНачала: attr('Время начала', { index: 0 }),
     времяОкончания: attr('Время окончания', { index: 1 }),
     должность: belongsTo('i-i-s-eshhe-legche-должность', 'Должность', {
-      наименование: attr('Наименование', { index: 3, hidden: true })
+      наименование: attr('Наименование должности', { index: 3, hidden: true })
     }, { index: 2, displayMemberPath: 'наименование' })
   });
 
   modelClass.defineProjection('ГрафикРаботыL', 'i-i-s-eshhe-legche-график-работы', {
     времяНачала: attr('Время начала', { index: 0 }),
     времяОкончания: attr('Время окончания', { index: 1 }),
-    должность: belongsTo('i-i-s-eshhe-legche-должность', 'Наименование', {
-      наименование: attr('Наименование', { index: 2 })
+    должность: belongsTo('i-i-s-eshhe-legche-должность', 'Наименование должности', {
+      наименование: attr('Наименование должности', { index: 2 })
     }, { index: -1, hidden: true })
   });
 };

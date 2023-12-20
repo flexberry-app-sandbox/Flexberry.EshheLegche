@@ -12,6 +12,7 @@ namespace IIS.EshheLegche
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -28,64 +29,40 @@ namespace IIS.EshheLegche
     public enum ТипКорма
     {
         
-        // *** Start programmer edit section *** (ТипКорма.Сухой CustomAttributes)
-
-        // *** End programmer edit section *** (ТипКорма.Сухой CustomAttributes)
-        Сухой,
-        
         // *** Start programmer edit section *** (ТипКорма.Мокрый CustomAttributes)
 
         // *** End programmer edit section *** (ТипКорма.Мокрый CustomAttributes)
+        [Caption("Мокрый")]
         Мокрый,
         
-        // *** Start programmer edit section *** (ТипКорма.фрукты CustomAttributes)
+        // *** Start programmer edit section *** (ТипКорма.Сухой CustomAttributes)
 
-        // *** End programmer edit section *** (ТипКорма.фрукты CustomAttributes)
-        фрукты,
+        // *** End programmer edit section *** (ТипКорма.Сухой CustomAttributes)
+        [Caption("Сухой")]
+        Сухой,
         
-        // *** Start programmer edit section *** (ТипКорма.овощи CustomAttributes)
+        // *** Start programmer edit section *** (ТипКорма.фруктыИОвощи CustomAttributes)
 
-        // *** End programmer edit section *** (ТипКорма.овощи CustomAttributes)
-        овощи,
+        // *** End programmer edit section *** (ТипКорма.фруктыИОвощи CustomAttributes)
+        [Caption("Фрукты и овощи")]
+        фруктыИОвощи,
         
-        // *** Start programmer edit section *** (ТипКорма.Сено CustomAttributes)
+        // *** Start programmer edit section *** (ТипКорма.СеноИТрава CustomAttributes)
 
-        // *** End programmer edit section *** (ТипКорма.Сено CustomAttributes)
-        Сено,
+        // *** End programmer edit section *** (ТипКорма.СеноИТрава CustomAttributes)
+        [Caption("Сено и трава")]
+        СеноИТрава,
         
-        // *** Start programmer edit section *** (ТипКорма.трава CustomAttributes)
+        // *** Start programmer edit section *** (ТипКорма.ЗерноКрупы CustomAttributes)
 
-        // *** End programmer edit section *** (ТипКорма.трава CustomAttributes)
-        трава,
+        // *** End programmer edit section *** (ТипКорма.ЗерноКрупы CustomAttributes)
+        [Caption("Зерно крупы")]
+        ЗерноКрупы,
         
-        // *** Start programmer edit section *** (ТипКорма.Зерно CustomAttributes)
+        // *** Start programmer edit section *** (ТипКорма.МясоИлиРыба CustomAttributes)
 
-        // *** End programmer edit section *** (ТипКорма.Зерно CustomAttributes)
-        Зерно,
-        
-        // *** Start programmer edit section *** (ТипКорма.и CustomAttributes)
-
-        // *** End programmer edit section *** (ТипКорма.и CustomAttributes)
-        и,
-        
-        // *** Start programmer edit section *** (ТипКорма.крупы CustomAttributes)
-
-        // *** End programmer edit section *** (ТипКорма.крупы CustomAttributes)
-        крупы,
-        
-        // *** Start programmer edit section *** (ТипКорма.Мясо CustomAttributes)
-
-        // *** End programmer edit section *** (ТипКорма.Мясо CustomAttributes)
-        Мясо,
-        
-        // *** Start programmer edit section *** (ТипКорма.или CustomAttributes)
-
-        // *** End programmer edit section *** (ТипКорма.или CustomAttributes)
-        или,
-        
-        // *** Start programmer edit section *** (ТипКорма.рыба CustomAttributes)
-
-        // *** End programmer edit section *** (ТипКорма.рыба CustomAttributes)
-        рыба,
+        // *** End programmer edit section *** (ТипКорма.МясоИлиРыба CustomAttributes)
+        [Caption("Мясо или рыба")]
+        МясоИлиРыба,
     }
 }

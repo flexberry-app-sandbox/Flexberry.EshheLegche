@@ -53,10 +53,10 @@ export let defineProjections = function (modelClass) {
     второйПрием: attr('Второй прием', { index: 1 }),
     третийПрием: attr('Третий прием', { index: 2 }),
     рацион: belongsTo('i-i-s-eshhe-legche-рацион', 'Рацион', {
-      составКорма: attr('Состав корма', { index: 4, hidden: true })
+      номерРациона: attr('Номер рациона', { index: 4 })
     }, { index: 3, displayMemberPath: 'составКорма' }),
     должность: belongsTo('i-i-s-eshhe-legche-должность', 'Должность', {
-      наименование: attr('Наименование', { index: 6, hidden: true })
+      наименование: attr('Наименование должности', { index: 6, hidden: true })
     }, { index: 5, displayMemberPath: 'наименование' })
   });
 
@@ -64,11 +64,11 @@ export let defineProjections = function (modelClass) {
     первыйПрием: attr('Первый прием', { index: 0 }),
     второйПрием: attr('Второй прием', { index: 1 }),
     третийПрием: attr('Третий прием', { index: 2 }),
-    рацион: belongsTo('i-i-s-eshhe-legche-рацион', 'Состав корма', {
-      составКорма: attr('Состав корма', { index: 3 })
+    должность: belongsTo('i-i-s-eshhe-legche-должность', 'Наименование должности', {
+      наименование: attr('Наименование должности', { index: 3 })
     }, { index: -1, hidden: true }),
-    должность: belongsTo('i-i-s-eshhe-legche-должность', 'Наименование', {
-      наименование: attr('Наименование', { index: 4 })
+    рацион: belongsTo('i-i-s-eshhe-legche-рацион', 'Номер рациона', {
+      номерРациона: attr('Номер рациона', { index: 4 })
     }, { index: -1, hidden: true })
   });
 };

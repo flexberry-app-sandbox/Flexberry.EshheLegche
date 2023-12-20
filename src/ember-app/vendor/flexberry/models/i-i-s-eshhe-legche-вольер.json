@@ -84,7 +84,7 @@
           "attrs": [
             {
               "name": "фамилия",
-              "caption": "Фамилия",
+              "caption": "Ответственный",
               "hidden": true,
               "index": 4
             }
@@ -140,14 +140,14 @@
           "attrs": [
             {
               "name": "фамилия",
-              "caption": "Фамилия",
+              "caption": "Ответственный",
               "hidden": false,
               "index": 3
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Фамилия",
+          "caption": "Ответственный",
           "name": "сотрудники",
           "relatedTo": "i-i-s-eshhe-legche-сотрудники",
           "inverse": null

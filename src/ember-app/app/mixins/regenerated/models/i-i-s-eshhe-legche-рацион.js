@@ -54,7 +54,7 @@ export let defineProjections = function (modelClass) {
     составКорма: attr('Состав корма', { index: 2 }),
     весКорма: attr('Вес корма', { index: 3 }),
     сотрудники: belongsTo('i-i-s-eshhe-legche-сотрудники', 'Сотрудники', {
-      фамилия: attr('Фамилия', { index: 5, hidden: true })
+      фамилия: attr('Ответственный', { index: 5, hidden: true })
     }, { index: 4, displayMemberPath: 'фамилия' })
   });
 
@@ -63,8 +63,8 @@ export let defineProjections = function (modelClass) {
     типКорма: attr('Тип корма', { index: 1 }),
     составКорма: attr('Состав корма', { index: 2 }),
     весКорма: attr('Вес корма', { index: 3 }),
-    сотрудники: belongsTo('i-i-s-eshhe-legche-сотрудники', 'Фамилия', {
-      фамилия: attr('Фамилия', { index: 4 })
+    сотрудники: belongsTo('i-i-s-eshhe-legche-сотрудники', 'Ответственный', {
+      фамилия: attr('Ответственный', { index: 4 })
     }, { index: -1, hidden: true })
   });
 };

@@ -30,7 +30,7 @@ CREATE TABLE Рацион (
  ВесКорма VARCHAR(255) NULL,
  НомерРациона INT NULL,
  СоставКорма VARCHAR(255) NULL,
- ТипКорма VARCHAR(6) NULL,
+ ТипКорма VARCHAR(14) NULL,
  Сотрудники UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
@@ -49,7 +49,7 @@ CREATE TABLE Вольер (
  primaryKey UUID NOT NULL,
  Номер INT NULL,
  Площадь VARCHAR(255) NULL,
- ТипВольера VARCHAR(12) NULL,
+ ТипВольера VARCHAR(20) NULL,
  Сотрудники UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 

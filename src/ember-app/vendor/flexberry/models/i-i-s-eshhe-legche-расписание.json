@@ -84,9 +84,9 @@
           "hidden": false,
           "attrs": [
             {
-              "name": "составКорма",
-              "caption": "Состав корма",
-              "hidden": true,
+              "name": "номерРациона",
+              "caption": "Номер рациона",
+              "hidden": false,
               "index": 4
             }
           ],
@@ -106,7 +106,7 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Наименование должности",
               "hidden": true,
               "index": 6
             }
@@ -148,43 +148,43 @@
         {
           "lookupValue": null,
           "lookupValueField": null,
-          "relationName": "Рацион",
-          "belongsTo": [],
-          "hidden": false,
-          "attrs": [
-            {
-              "name": "составКорма",
-              "caption": "Состав корма",
-              "hidden": false,
-              "index": 3
-            }
-          ],
-          "index": -1,
-          "type": "default",
-          "caption": "Состав корма",
-          "name": "рацион",
-          "relatedTo": "i-i-s-eshhe-legche-рацион",
-          "inverse": null
-        },
-        {
-          "lookupValue": null,
-          "lookupValueField": null,
           "relationName": "Должность",
           "belongsTo": [],
           "hidden": false,
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Наименование должности",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование должности",
+          "name": "должность",
+          "relatedTo": "i-i-s-eshhe-legche-должность",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Рацион",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерРациона",
+              "caption": "Номер рациона",
               "hidden": false,
               "index": 4
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Наименование",
-          "name": "должность",
-          "relatedTo": "i-i-s-eshhe-legche-должность",
+          "caption": "Номер рациона",
+          "name": "рацион",
+          "relatedTo": "i-i-s-eshhe-legche-рацион",
           "inverse": null
         }
       ],

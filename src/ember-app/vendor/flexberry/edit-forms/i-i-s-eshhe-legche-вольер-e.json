@@ -9,12 +9,12 @@
       "detailModelName": null
     },
     {
-      "master": "животные",
-      "displayAttributeName": "кличка",
-      "required": true,
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
       "relationName": "СоставВольера.Животные",
       "projection": "ЖивотныеL",
-      "detailModelName": "i-i-s-eshhe-legche-состав-вольера"
+      "detailModelName": null
     }
   ],
   "external": false,

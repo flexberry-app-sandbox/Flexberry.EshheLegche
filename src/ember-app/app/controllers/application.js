@@ -28,48 +28,49 @@ export default Controller.extend({
             link: 'i-i-s-eshhe-legche-виды-l',
             caption: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-виды-l.caption'),
             title: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-виды-l.title'),
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-eshhe-legche-график-работы-l',
             caption: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-график-работы-l.caption'),
             title: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-график-работы-l.title'),
-            icon: 'calendar',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-eshhe-legche-должность-l',
             caption: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-должность-l.title'),
-            icon: 'archive',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-eshhe-legche-рацион-l',
             caption: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-рацион-l.caption'),
             title: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-рацион-l.title'),
-            icon: 'briefcase',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-eshhe-legche-расписание-l',
             caption: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-расписание-l.caption'),
             title: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-расписание-l.title'),
-            icon: 'tasks',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-eshhe-legche-вольер-l',
             caption: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-вольер-l.caption'),
             title: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-вольер-l.title'),
-            icon: 'tasks',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-eshhe-legche-животные-l',
             caption: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-животные-l.caption'),
             title: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-животные-l.title'),
-            icon: 'address card',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-eshhe-legche-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.eshhe-legche.i-i-s-eshhe-legche-сотрудники-l.title'),
-            icon: 'suitcase',
+            icon: 'chart line',
             children: null
           }]
         }

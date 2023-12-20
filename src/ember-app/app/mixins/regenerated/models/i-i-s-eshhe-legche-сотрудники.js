@@ -54,7 +54,7 @@ export let defineProjections = function (modelClass) {
     имя: attr('Имя', { index: 2 }),
     отчество: attr('Отчество', { index: 3 }),
     должность: belongsTo('i-i-s-eshhe-legche-должность', 'Должность', {
-      наименование: attr('Наименование', { index: 5, hidden: true })
+      наименование: attr('Наименование должности', { index: 5, hidden: true })
     }, { index: 4, displayMemberPath: 'наименование' })
   });
 
@@ -63,8 +63,8 @@ export let defineProjections = function (modelClass) {
     фамилия: attr('Фамилия', { index: 1 }),
     имя: attr('Имя', { index: 2 }),
     отчество: attr('Отчество', { index: 3 }),
-    должность: belongsTo('i-i-s-eshhe-legche-должность', 'Наименование', {
-      наименование: attr('Наименование', { index: 4 })
+    должность: belongsTo('i-i-s-eshhe-legche-должность', 'Наименование должности', {
+      наименование: attr('Наименование должности', { index: 4 })
     }, { index: -1, hidden: true })
   });
 };

@@ -63,7 +63,7 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Наименование должности",
               "hidden": true,
               "index": 3
             }
@@ -105,14 +105,14 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Наименование должности",
               "hidden": false,
               "index": 2
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Наименование",
+          "caption": "Наименование должности",
           "name": "должность",
           "relatedTo": "i-i-s-eshhe-legche-должность",
           "inverse": null
