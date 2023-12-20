@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Рацион",
+  "name": "IISEshheLegcheРационE",
+  "className": "РационE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-eshhe-legche-рацион",
+      "modelProjection": "РационE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-eshhe-legche-график-работы-e",
+  "editForm": "i-i-s-eshhe-legche-график-работы-e",
+  "external": false,
+  "caption": "График работы",
+  "name": "IISEshheLegcheГрафикРаботыL",
+  "className": "ГрафикРаботыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-eshhe-legche-график-работы",
+      "modelProjection": "ГрафикРаботыL"
+    }
+  ]
+}

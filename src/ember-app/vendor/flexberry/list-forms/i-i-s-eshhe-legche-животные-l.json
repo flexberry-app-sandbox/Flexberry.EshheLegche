@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-eshhe-legche-животные-e",
+  "editForm": "i-i-s-eshhe-legche-животные-e",
+  "external": false,
+  "caption": "Животные",
+  "name": "IISEshheLegcheЖивотныеL",
+  "className": "ЖивотныеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-eshhe-legche-животные",
+      "modelProjection": "ЖивотныеL"
+    }
+  ]
+}

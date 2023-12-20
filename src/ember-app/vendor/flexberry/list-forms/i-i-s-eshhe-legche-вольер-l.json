@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-eshhe-legche-вольер-e",
+  "editForm": "i-i-s-eshhe-legche-вольер-e",
+  "external": false,
+  "caption": "Вольер",
+  "name": "IISEshheLegcheВольерL",
+  "className": "ВольерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-eshhe-legche-вольер",
+      "modelProjection": "ВольерL"
+    }
+  ]
+}

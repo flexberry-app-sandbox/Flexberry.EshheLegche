@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-eshhe-legche-расписание-e",
+  "editForm": "i-i-s-eshhe-legche-расписание-e",
+  "external": false,
+  "caption": "Расписание",
+  "name": "IISEshheLegcheРасписаниеL",
+  "className": "РасписаниеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-eshhe-legche-расписание",
+      "modelProjection": "РасписаниеL"
+    }
+  ]
+}

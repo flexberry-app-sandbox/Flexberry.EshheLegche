@@ -1,0 +1,1 @@
+docker-compose -p eshhelegche up -d

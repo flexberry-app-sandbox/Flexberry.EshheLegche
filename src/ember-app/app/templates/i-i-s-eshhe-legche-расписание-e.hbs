@@ -1,0 +1,93 @@
+<h3 class="ui header">{{t "forms.i-i-s-eshhe-legche-расписание-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.первыйПрием
+      class=(if (v-get validationModel "первыйПрием" "isInvalid") "error")
+      label=(t "forms.i-i-s-eshhe-legche-расписание-e.первыйПрием-caption")
+      data-test-i-i-s-eshhe-legche-расписание-e-первыйПрием=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "первыйПрием" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.второйПрием
+      class=(if (v-get validationModel "второйПрием" "isInvalid") "error")
+      label=(t "forms.i-i-s-eshhe-legche-расписание-e.второйПрием-caption")
+      data-test-i-i-s-eshhe-legche-расписание-e-второйПрием=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "второйПрием" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.третийПрием
+      class=(if (v-get validationModel "третийПрием" "isInvalid") "error")
+      label=(t "forms.i-i-s-eshhe-legche-расписание-e.третийПрием-caption")
+      data-test-i-i-s-eshhe-legche-расписание-e-третийПрием=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "третийПрием" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-eshhe-legche-расписание-e.рацион-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.рацион
+      displayAttributeName="составКорма"
+      autocomplete=true
+      relationName="рацион"
+      projection="РационL"
+      title=(t "forms.i-i-s-eshhe-legche-расписание-e.рацион-caption")
+      readonly=readonly
+      componentName="рационLookup"
+      class=(if (v-get validationModel "рацион" "isInvalid") "error")
+      data-test-i-i-s-eshhe-legche-расписание-e-рацион=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "рацион" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-eshhe-legche-расписание-e.должность-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.должность
+      displayAttributeName="наименование"
+      autocomplete=true
+      relationName="должность"
+      projection="ДолжностьL"
+      title=(t "forms.i-i-s-eshhe-legche-расписание-e.должность-caption")
+      readonly=readonly
+      componentName="должностьLookup"
+      class=(if (v-get validationModel "должность" "isInvalid") "error")
+      data-test-i-i-s-eshhe-legche-расписание-e-должность=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "должность" "message")}}
+  </div>
+</form>

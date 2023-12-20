@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-eshhe-legche-рацион-e",
+  "editForm": "i-i-s-eshhe-legche-рацион-e",
+  "external": false,
+  "caption": "Рацион",
+  "name": "IISEshheLegcheРационL",
+  "className": "РационL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-eshhe-legche-рацион",
+      "modelProjection": "РационL"
+    }
+  ]
+}

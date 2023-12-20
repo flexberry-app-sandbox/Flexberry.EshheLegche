@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-eshhe-legche-виды-e",
+  "editForm": "i-i-s-eshhe-legche-виды-e",
+  "external": false,
+  "caption": "Виды",
+  "name": "IISEshheLegcheВидыL",
+  "className": "ВидыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-eshhe-legche-виды",
+      "modelProjection": "ВидыL"
+    }
+  ]
+}
