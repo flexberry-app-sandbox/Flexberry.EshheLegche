@@ -4,65 +4,89 @@
   "items": [
     {
       "link": null,
-      "menuName": "eshhe-legche",
-      "caption": "EshheLegche",
-      "title": "EshheLegche",
+      "menuName": "з-о-о-п-а-р-к",
+      "caption": "ЗООПАРК",
+      "title": "ЗООПАРК",
       "children": [
         {
-          "link": "i-i-s-eshhe-legche-виды-l",
-          "menuName": null,
-          "caption": "Виды",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "штат",
+          "caption": "Штат",
+          "title": "Штат",
+          "children": [
+            {
+              "link": "i-i-s-eshhe-legche-сотрудники-l",
+              "menuName": null,
+              "caption": "Сотрудники",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-eshhe-legche-график-работы-l",
+              "menuName": null,
+              "caption": "График работы",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-eshhe-legche-должность-l",
+              "menuName": null,
+              "caption": "Должность",
+              "title": "",
+              "children": null
+            }
+          ]
         },
         {
-          "link": "i-i-s-eshhe-legche-график-работы-l",
-          "menuName": null,
-          "caption": "График работы",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "учет-животных",
+          "caption": "Учет животных",
+          "title": "Учет животных",
+          "children": [
+            {
+              "link": "i-i-s-eshhe-legche-животные-l",
+              "menuName": null,
+              "caption": "Животные",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-eshhe-legche-виды-l",
+              "menuName": null,
+              "caption": "Виды",
+              "title": "",
+              "children": null
+            }
+          ]
         },
         {
-          "link": "i-i-s-eshhe-legche-должность-l",
-          "menuName": null,
-          "caption": "Должность",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-eshhe-legche-рацион-l",
-          "menuName": null,
-          "caption": "Рацион",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-eshhe-legche-расписание-l",
-          "menuName": null,
-          "caption": "Расписание",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-eshhe-legche-вольер-l",
-          "menuName": null,
-          "caption": "Вольер",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-eshhe-legche-животные-l",
-          "menuName": null,
-          "caption": "Животные",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-eshhe-legche-сотрудники-l",
-          "menuName": null,
-          "caption": "Сотрудники",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "уход-и-кормление",
+          "caption": "Уход и кормление",
+          "title": "Уход и кормление",
+          "children": [
+            {
+              "link": "i-i-s-eshhe-legche-вольер-l",
+              "menuName": null,
+              "caption": "Вольер",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-eshhe-legche-расписание-l",
+              "menuName": null,
+              "caption": "Расписание",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-eshhe-legche-рацион-l",
+              "menuName": null,
+              "caption": "Рацион",
+              "title": "",
+              "children": null
+            }
+          ]
         }
       ]
     }

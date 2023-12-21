@@ -106,6 +106,54 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
+        'з-о-о-п-а-р-к': {
+          caption: 'ЗООПАРК',
+          title: 'ЗООПАРК',
+          штат: {
+            caption: 'Штат',
+            title: 'Штат',
+            'i-i-s-eshhe-legche-сотрудники-l': {
+              caption: 'Сотрудники',
+              title: ''
+            },
+            'i-i-s-eshhe-legche-график-работы-l': {
+              caption: 'График работы',
+              title: ''
+            },
+            'i-i-s-eshhe-legche-должность-l': {
+              caption: 'Должность',
+              title: ''
+            }
+          },
+          'учет-животных': {
+            caption: 'Учет животных',
+            title: 'Учет животных',
+            'i-i-s-eshhe-legche-животные-l': {
+              caption: 'Животные',
+              title: ''
+            },
+            'i-i-s-eshhe-legche-виды-l': {
+              caption: 'Виды',
+              title: ''
+            }
+          },
+          'уход-и-кормление': {
+            caption: 'Уход и кормление',
+            title: 'Уход и кормление',
+            'i-i-s-eshhe-legche-вольер-l': {
+              caption: 'Вольер',
+              title: ''
+            },
+            'i-i-s-eshhe-legche-расписание-l': {
+              caption: 'Расписание',
+              title: ''
+            },
+            'i-i-s-eshhe-legche-рацион-l': {
+              caption: 'Рацион',
+              title: ''
+            }
+          }
+        },
         'eshhe-legche': {
           caption: 'EshheLegche',
           title: 'EshheLegche',
